@@ -1,0 +1,39 @@
+.container-fluid {
+  padding: 3rem 10rem;
+  background-color: #f9f9f9;
+}
+
+.box-content {
+  background-color: #fff;
+  padding: 2rem;
+  height: 100vh;
+  border-radius: 10px;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .btn-add {
+    border-radius: 0 3px 3px 0;
+  }
+
+  .btn-reset {
+    border: 1px solid #ced4da;
+    border-left: 0;
+  }
+
+  span.red {
+    color: red;
+    font-size: 0.9rem;
+  }
+}
+
+.table-list {
+  * {
+    border: 0 !important;
+  }
+  .task-name {
+    text-transform: capitalize;
+  }
+}

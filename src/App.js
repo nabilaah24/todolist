@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// todo 1:
+// - membuat aplikasi todo list
+
+// stack:
+// - bebas, boleh vanilla atau framework (vanilla prefered)
+
+// nilai plus:
+// - validasi todo name tidak boleh sama dgn
+// yg sudah diinput (+10)
+// - validasi input harus diisi (+10)
+// - pesan error ketika validasi tidak pass (+10)
+// - clear input setelah klik button (+10)
+// - good design (css) (+1 up to +10)
+
+import "./App.scss";
+import ToDoList from "./pages/ToDoList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToDoList />
     </div>
   );
 }
